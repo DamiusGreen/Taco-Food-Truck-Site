@@ -1,0 +1,26 @@
+﻿.my-container {
+    position: relative;
+    /*background: #5C97FF;*/
+    overflow: hidden;
+}
+
+/* You could use :after - it doesn't really matter */
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url("Taco Truck/santamonica2.jpg");
+
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    background-image: url("Taco Truck/santamonica3.jpg");
+    background-blend-mode: color;
+}
