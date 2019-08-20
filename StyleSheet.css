@@ -15,14 +15,33 @@
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.85) !important;
-    background-image: url("Taco Truck/santamonica3.jpg");
+    background-color: rgba(255, 255, 255, 0.40) !important;
+    background-image: url("Taco Truck/santamonica2.jpg");
     background-blend-mode: color;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.navbar-nav > li{
+  padding-left:100px;
+  padding-right:80px;
+}
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  width: 100%;
+  margin-right:auto;
+  margin-left:auto
+}
+
+/*
+.navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+*/
 
 /*
 :hover body,
