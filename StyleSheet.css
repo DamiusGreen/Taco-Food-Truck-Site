@@ -1,4 +1,5 @@
-﻿/* You could use :after */
+﻿/*WIP #banner wallpaper for Navbar*/
+/* You could use :after */
 #banner:before {
     content: ' ';
     display: grid;
@@ -37,16 +38,27 @@ body {
   margin-left:auto
 }
 
-/*
-.navbar-collapse {
-  border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-*/
+.img-container {
+  position:relative;
+  display:inline-block;
+  z-index:1;
+}
+ .logo-container {
+  position:absolute;
+  top:20%;
+  left:15%;
+  width: 70%;
+  height:auto;
+}
 
-/*
-:hover body,
-:focus body{
+.taco_truck_logo {
+  width: auto;
+  height: auto;
+  border-radius: 100%;
+}
+
+.logo-container:hover .taco_truck_logo, 
+.logo-container:focus .taco_truck_logo {
   transform: scale(1.2);
   transition: all .5s;
 } 
-*/
