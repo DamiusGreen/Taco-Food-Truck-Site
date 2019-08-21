@@ -10,14 +10,14 @@
     height: 100%;
     z-index: 1;
     opacity: 0.4;
-    background-image: url("Taco Truck/santamonica2.jpg");
+    background-image: url("Taco_Truck/santamonica2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 body {
     background-color: rgba(255, 255, 255, 0.40) !important;
-    background-image: url("Taco Truck/santamonica2.jpg");
+    background-image: url("Taco_Truck/santamonica2.jpg");
     background-blend-mode: color;
     background-attachment: fixed;
     background-position: center;
