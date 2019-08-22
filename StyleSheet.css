@@ -15,9 +15,10 @@
     background-repeat: no-repeat;
 }
 
+/*Background image positioning*/
 body {
     background-color: rgba(255, 255, 255, 0.40) !important;
-    background-image: url("Taco_Truck/santamonica2.jpg");
+    background-image: url("Taco_Truck/white bg.jpg");
     background-blend-mode: color;
     background-attachment: fixed;
     background-position: center;
@@ -25,24 +26,65 @@ body {
     background-repeat: no-repeat;
 }
 
+/*Title option spacing*/
 .navbar-nav > li{
-  padding-left:100px;
+  padding-left:120px;
   padding-right:80px;
 }
 
-.container-fluid {
-  padding-right:0;
-  padding-left:0;
-  width: 100%;
-  margin-right:auto;
-  margin-left:auto
+@media (width: 800px){
+  .navbar-nav > li {
+    padding-left:30px;
+    padding-right:80px;
+  }
 }
 
+@media (min-width: 580px){
+  .navbar-nav > li {
+    padding-left:10px;
+    padding-right:80px;
+  }
+}
+
+/*Navbar fonts*/
+.nav-link {
+  font-family: "Marker Felt", fantasy;
+  color: rgb(243, 159, 4);
+}
+
+.nav-link:hover {
+  color:rgb(173, 9, 9);
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+}
+
+.fa.fa-navicon {
+  color: rgb(243, 159, 4);
+  font-size:30px;
+}
+
+.fa.fa-navicon:hover {
+  color:rgb(173, 9, 9);
+}
+
+.custom-toggler:hover {
+  transform: scale(1.2);
+}
+
+.custom-toggler {
+  border: none;
+  outline: none;
+}
+
+/*Taco truck logo positining*/
 .img-container {
   position:relative;
   display:inline-block;
   z-index:1;
 }
+
  .logo-container {
   position:absolute;
   top:20%;
@@ -57,16 +99,14 @@ body {
   border-radius: 100%;
 }
 
+/*Santa Monica Tacos Logo transitioning in and out*/
 .logo-container:hover .taco_truck_logo, 
 .logo-container:focus .taco_truck_logo {
-  transition-timing-function: ease;
   transform: scale(1.2);
   transition: 1.55s;
-} 
+}
 
-.logo-container:hover .taco_truck_logo, 
-.logo-container:focus .taco_truck_logo {
-  transition-timing-function: ease;
-  transform: scale(1.2);
+.logo-container .taco_truck_logo, 
+.logo-container .taco_truck_logo {
   transition: 1.55s;
-} 
+}
