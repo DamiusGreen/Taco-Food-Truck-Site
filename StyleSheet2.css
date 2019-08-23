@@ -1,0 +1,93 @@
+/*Title option spacing for other screen widths*/
+/*smaller screen sizes*/
+@media (max-width: 400px) {
+    .navbar-nav > li {
+      padding-left:100px;
+      padding-right:20px;
+    }
+  }
+  
+  @media (min-width: 575px) {
+    .navbar-nav > li {
+      padding-left:250px;
+      padding-right:20px;
+    }
+  }
+
+  /*larger screen sizes*/
+  @media (min-width: 576px) {
+    .navbar-nav > li {
+      padding-left:28px;
+      padding-right:20px;
+    }
+  }
+  
+  @media (min-width: 695px) {
+    .navbar-nav > li {
+      padding-left:5px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 850px) {
+    .navbar-nav > li {
+      padding-left:35px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 1020px) {
+    .navbar-nav > li {
+      padding-left:69px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 1135px) {
+    .navbar-nav > li {
+      padding-left:92px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 1340px) {
+    .navbar-nav > li {
+      padding-left:133px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 1450px) {
+    .navbar-nav > li {
+      padding-left:155px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 1525px) {
+    .navbar-nav > li {
+      padding-left:170px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 1625px) {
+    .navbar-nav > li {
+      padding-left:190px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 1725px) {
+    .navbar-nav > li {
+      padding-left:210px;
+      padding-right:80px;
+    }
+  }
+  
+  @media (min-width: 1835px) {
+    .navbar-nav > li {
+      padding-left:231px;
+      padding-right:80px;
+    }
+  }

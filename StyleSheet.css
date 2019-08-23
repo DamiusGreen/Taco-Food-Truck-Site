@@ -26,24 +26,10 @@ body {
     background-repeat: no-repeat;
 }
 
-/*Title option spacing*/
+/*Title option spacing for navbar toggler widths*/
 .navbar-nav > li{
-  padding-left:120px;
-  padding-right:80px;
-}
-
-@media (width: 800px){
-  .navbar-nav > li {
-    padding-left:30px;
-    padding-right:80px;
-  }
-}
-
-@media (min-width: 580px){
-  .navbar-nav > li {
-    padding-left:10px;
-    padding-right:80px;
-  }
+  padding-left:180px;
+  padding-right:20px;
 }
 
 /*Navbar fonts*/
@@ -54,9 +40,6 @@ body {
 
 .nav-link:hover {
   color:rgb(173, 9, 9);
-}
-
-.nav-link:hover {
   transform: scale(1.2);
 }
 
