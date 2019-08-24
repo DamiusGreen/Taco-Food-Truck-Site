@@ -1,37 +1,23 @@
 /*Title option spacing for other screen widths*/
 /*smaller screen sizes*/
-@media (max-width: 400px) {
+@media (min-width: 700px) {
     .navbar-nav > li {
-      padding-left:100px;
-      padding-right:20px;
+      padding-left:350px;
+      padding-right:520px;
     }
   }
-  
-  @media (min-width: 575px) {
+
+  @media (min-width: 856px) {
     .navbar-nav > li {
-      padding-left:250px;
-      padding-right:20px;
+      padding-left:450px;
+      padding-right:520px;
     }
   }
 
   /*larger screen sizes*/
-  @media (min-width: 576px) {
+  @media (min-width: 990px) {
     .navbar-nav > li {
-      padding-left:28px;
-      padding-right:20px;
-    }
-  }
-  
-  @media (min-width: 695px) {
-    .navbar-nav > li {
-      padding-left:5px;
-      padding-right:80px;
-    }
-  }
-  
-  @media (min-width: 850px) {
-    .navbar-nav > li {
-      padding-left:35px;
+      padding-left:60px;
       padding-right:80px;
     }
   }
