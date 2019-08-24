@@ -1,21 +1,4 @@
-﻿/*WIP #banner wallpaper for Navbar*/
-/* You could use :after */
-#banner:before {
-    content: ' ';
-    display: grid;
-    position: relative;
-    left: 0;
-    top: 0;
-    width: 105%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.4;
-    background-image: url("Taco_Truck/santamonica2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/*Background image positioning*/
+﻿/*Background image positioning*/
 body {
     background-color: rgba(255, 255, 255, 0.40) !important;
     background-image: url("Taco_Truck/white bg.jpg");
