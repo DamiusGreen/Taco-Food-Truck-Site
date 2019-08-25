@@ -76,3 +76,11 @@ body {
 .logo-container .taco_truck_logo {
   transition: 1.55s;
 }
+
+/*Taco menu image font*/
+.Taco_menu p {
+  font-family: 'Doppio One', sans-serif;
+  color:rgb(173, 9, 9);
+  font-size:20px;
+  font-weight:595;
+}
