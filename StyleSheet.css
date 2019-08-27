@@ -11,8 +11,8 @@ body {
 
 /*Title option spacing for navbar toggler widths*/
 .navbar-nav > li{
-  padding-left:190px;
-  padding-right:270px;
+  padding-left: 190px;
+  padding-right: 270px;
 }
 
 /*Navbar fonts*/
@@ -44,25 +44,17 @@ body {
   outline: none;
 }
 
-/*Taco truck logo positining*/
+/*----------Taco truck logo positining----------*/
 .img-container {
   position:relative;
-  display:inline-block;
-  z-index:1;
 }
 
  .logo-container {
   position:absolute;
-  top:20%;
-  left:15%;
+  top: 20%;
+  left: 15%;
   width: 70%;
   height:auto;
-}
-
-.taco_truck_logo {
-  width: auto;
-  height: auto;
-  border-radius: 100%;
 }
 
 /*Santa Monica Tacos Logo transitioning in and out*/
@@ -77,10 +69,39 @@ body {
   transition: 1.55s;
 }
 
-/*Taco menu image font*/
-.Taco_menu p {
-  font-family: 'Doppio One', sans-serif;
-  color:rgb(173, 9, 9);
-  font-size:20px;
-  font-weight:595;
+/*Taco menu transparent hover layer*/
+.Taco_menu_item {
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+
+.Taco_menu_item:hover .trans_layer {
+  width: 265px;
+  overflow: hidden;
+  
+}
+
+.taco_img1 {
+  display: block;
+}
+
+.trans_layer {
+  top: 0;
+  height: 205px;
+  width: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: bottom;
+  background: black;
+  overflow: hidden;
+  opacity: .75;
+  transition: all 0.7s ease;
+}
+
+#font {
+  color: rgb(255, 255, 255);
+  
+  padding: 20px 30px;
 }
