@@ -1,25 +1,21 @@
-var images = ["http://www.sololearn.com/uploads/slider/1.jpg", 
-              "http://www.sololearn.com/uploads/slider/2.jpg",
-              "http://www.sololearn.com/uploads/slider/3.jpg"]
+$(function() {
+    $(window).scroll( function(){
 
-setInterval(next, 3000);
 
-var num = 0;
+        $('.tacos_title').each( function(i){
 
-function next() {
-    var slider = document.getElementById("slider");
-    num++;
-    if(num >= images.length) {
-        num = 0;
-    }
-    slider.src = images[num];
-}
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-function prev() {
-    var slider = document.getElementById("slider");
-    num--;
-    if(num < 0) {
-        num = images.length-1;
-    }
-    slider.src = images[num];
-}
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 200;  
+
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).animate({'opacity':'1'},1000);
+
+            }
+        }); 
+
+    });
+});
