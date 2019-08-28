@@ -1,4 +1,8 @@
 ﻿/*Background image positioning*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: rgba(255, 255, 255, 0.40) !important;
     background-image: url("Taco_Truck/white bg.jpg");
@@ -71,7 +75,7 @@ body {
 }
 
 /*---------------Taco menu title---------------*/
-#taco_h1, #taco_h1_2{
+#Tacos, #Shop, #Locations{
   font-family: "Marker Felt", fantasy;
   color:rgb(197, 46, 46);
   font-size: 90px;
@@ -119,9 +123,41 @@ body {
 /*---------------Shop menu area---------------*/
 .fade-in {
   opacity: 0;
-  transition: opacity 310ms ease-in;
+  transition: opacity 250ms ease-in;
 }
 
 .fade-in.appear {
   opacity: 1;
+}
+
+/*Shop menu transform positioning*/
+.front-left {
+  transform: translateX(-50%);
+}
+
+.front-right {
+  transform: translateX(50%);
+}
+
+.front-left,
+.front-right {
+  transition: transform  500ms  ease-in;
+}
+
+.front-left.appear,
+.front-right.appear {
+  transform: translateX(0);
+}
+
+/*---------------Scroll to section---------------*/
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/*-----Shop section font-----*/
+#shirt1_text, #shirt2_text, #shirt3_text {
+  font-family: "Marker Felt", fantasy;
+  color:rgb(43, 43, 43);
 }
