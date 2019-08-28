@@ -1,21 +1,25 @@
-$(function() {
-    $(window).scroll( function(){
+const faders = document.querySelectorAll(".fade-in");
 
+const appearOptions = {
+    threshold: 1,
+    rootMargin: "0px 0px -30px 0px"
+};
 
-        $('.tacos_title').each( function(i){
+const appearOnScroll = new IntersectionObserver 
+(function(
+    entries, 
+    appearOnScroll
+) {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+            entry.target.classList.add("appear");
+            appearOnScroll.unobserve(entry.target);
+        }
+    })
+}, appearOptions);
 
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
-            bottom_of_window = bottom_of_window + 200;  
-
-            if( bottom_of_window > bottom_of_object ){
-
-                $(this).animate({'opacity':'1'},1000);
-
-            }
-        }); 
-
-    });
-});
+faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+})
