@@ -12,6 +12,18 @@ $(document).ready(function(){
         }, 100);
     });
 
+    $("#section3").click(function() {
+        $("html, body").animate({
+            scrollTop: $("#About").offset().top
+        }, 100);
+    });
+
+    $("#section4").click(function() {
+        $("html, body").animate({
+            scrollTop: $("#Contact").offset().top
+        }, 100);
+    });
+
 });
 
 

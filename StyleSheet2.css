@@ -18,62 +18,62 @@
   @media (min-width: 990px) {
     .navbar-nav > li {
       padding-left:60px;
-      padding-right:80px;
+      padding-right:150px;
     }
   }
   
-  @media (min-width: 1020px) {
+  @media (min-width: 1080px) {
     .navbar-nav > li {
       padding-left:69px;
-      padding-right:80px;
+      padding-right:170px;
     }
   }
   
-  @media (min-width: 1135px) {
+  @media (min-width: 1190px) {
     .navbar-nav > li {
-      padding-left:92px;
-      padding-right:80px;
+      padding-left:85px;
+      padding-right:185px;
     }
   }
   
-  @media (min-width: 1340px) {
+  @media (min-width: 1345px) {
     .navbar-nav > li {
       padding-left:133px;
-      padding-right:80px;
+      padding-right:185px;
     }
   }
   
-  @media (min-width: 1450px) {
+  @media (min-width: 1460px) {
     .navbar-nav > li {
       padding-left:155px;
-      padding-right:80px;
+      padding-right:180px;
     }
   }
   
-  @media (min-width: 1525px) {
+  @media (min-width: 1535px) {
     .navbar-nav > li {
       padding-left:170px;
-      padding-right:80px;
+      padding-right:195px;
     }
   }
   
-  @media (min-width: 1625px) {
+  @media (min-width: 1650px) {
     .navbar-nav > li {
       padding-left:190px;
-      padding-right:80px;
+      padding-right:200px;
     }
   }
   
-  @media (min-width: 1725px) {
+  @media (min-width: 1735px) {
     .navbar-nav > li {
       padding-left:210px;
-      padding-right:80px;
+      padding-right:205px;
     }
   }
   
-  @media (min-width: 1835px) {
+  @media (min-width: 1845px) {
     .navbar-nav > li {
       padding-left:231px;
-      padding-right:80px;
+      padding-right:210px;
     }
   }

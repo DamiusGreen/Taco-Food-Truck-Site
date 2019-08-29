@@ -74,7 +74,7 @@ body {
 }
 
 /*---------------Taco menu title---------------*/
-#Tacos, #Shop, #Locations{
+#Tacos, #Shop, #About, #Contact{
   font-family: "Marker Felt", fantasy;
   color:rgb(197, 46, 46);
   font-size: 90px;
@@ -155,8 +155,37 @@ button {
   background: none;
 }
 
-/*-----Shop section font-----*/
+/*---------------Shop section font---------------*/
 #shirt1_text, #shirt2_text, #shirt3_text {
   font-family: "Marker Felt", fantasy;
   color:rgb(43, 43, 43);
+}
+
+/*---------------Contact section---------------*/
+.map-container {
+  background: black;
+  opacity: .85;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.contact-font p{
+  font-family: "Marker Felt", fantasy;
+  color:rgb(255, 255, 255);
+  position: relative;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.contact-font h2 {
+  color:rgb(197, 46, 46);
+  padding-left: 8%;
+}
+
+.contact-font #hours {
+  padding-left: 15%;
+}
+
+.map {
+  margin-left: 5%;
 }
