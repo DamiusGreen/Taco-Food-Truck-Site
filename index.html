@@ -161,7 +161,7 @@
     <div class = "row">
       <!--Shirt 1-->
         <div class = "col-sm-6 fade-in slide-in front-left">
-            <div class="shirt1_container" style="padding-bottom: 10%; padding-top: 15%;">
+            <div class="shirt1_container" style="padding-bottom: 10%; padding-top: 10%;">
                 <img class="shirt1 img-fluid" style="width: 80%; height: 100%; border: 2px solid rgb(173, 9, 9);" src="Taco_Truck\shirt1.jpg" alt="Image Not Found">
             </div>
         </div>
@@ -220,9 +220,11 @@
     </div>
   
     <br >
+  <!--Note# It's very important to set separate images on row to 
+    ((<div class="col-sm-6") <img class="w-100 img-fluid") for correct display in Safari browser-->
 
-    <div class= "team container col-sm-12">
-      <div class="row img-container">
+    <div class= "team_outer container col-sm-12">
+      <div class="team_inner row img-container" style="margin-left: .05%;">
         
         <div class="col-sm-6">
           <img class= "w-100 img-fluid" src="Taco_Truck\TheTeam.png">
@@ -231,6 +233,14 @@
         <div class="col-sm-6">
           <img class= "w-100 img-fluid" src="Taco_Truck\foodtruck1.png">
         </div>
+
+        <div class="col">
+            <div class="contact-font">
+              <p id="team-text">
+                  We are passionate about.....
+              </p>
+            </div>
+          </div>
 
       </div>
     </div>
@@ -272,7 +282,7 @@
         </div>
       </div>
 
-      </div>
+    </div>
   </div>
       
     <br >
