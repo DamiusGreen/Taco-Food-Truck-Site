@@ -50,7 +50,7 @@ body {
 }
 
 /*----------Taco truck logo positining----------*/
-.img-container {
+.img-container1 {
   position:relative;
 }
 
@@ -146,13 +146,6 @@ body {
 .front-left.appear,
 .front-right.appear {
   transform: translateX(0);
-}
-
-/*---------------Scroll to section---------------*/
-button {
-  padding: 0;
-  border: none;
-  background: none;
 }
 
 /*---------------Shop section font---------------*/
