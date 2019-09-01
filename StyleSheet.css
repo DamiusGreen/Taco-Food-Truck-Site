@@ -22,7 +22,7 @@ body {
 /*Navbar fonts*/
 .nav-link {
   font-family: "Marker Felt", fantasy;
-  color: rgb(88, 65, 34);
+  color: rgb(100, 67, 23);
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   font-size: 20px;
 }
@@ -171,29 +171,44 @@ body {
   opacity: .85;
 }
 
-#team-text {
+.about-text, #team-text {
   font-family: "Marker Felt", fantasy;
   color:rgb(255, 255, 255);
   position: relative;
   padding-top: 5%;
-  padding-left: 20%;
+  padding-left: 1.5%;
 }
 
+/*------------Social media icons------------*/
+.icon {
+  color: rgb(0, 0, 0);
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size:70px;
+  text-shadow: 4px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.icon:hover {
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 /*---------------Contact section---------------*/
 .map-container {
   background: black;
+  position: relative;
   opacity: .85;
   padding-top: 2%;
   padding-bottom: 5%;
 }
 
-.contact-font, #team-text{
+.contact-font p{
   font-family: "Marker Felt", fantasy;
   color:rgb(255, 255, 255);
   position: relative;
-  padding-top: 5%;
-  padding-left: 4%;
+  padding-top: 10%;
+  padding-left: 10%;
 }
 
 .contact-font h2 {
