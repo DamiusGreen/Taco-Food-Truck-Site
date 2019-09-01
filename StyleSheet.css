@@ -22,19 +22,20 @@ body {
 /*Navbar fonts*/
 .nav-link {
   font-family: "Marker Felt", fantasy;
-  color: rgb(243, 159, 4);
+  color: rgb(88, 65, 34);
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  font-size: 20px;
 }
 
 /*Navbar hover and effects*/
 .nav-link:hover {
   color:rgb(173, 9, 9);
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
 .fa.fa-navicon {
   color: rgb(243, 159, 4);
-  font-size:30px;
+  font-size:40px;
 }
 
 .fa.fa-navicon:hover {
@@ -187,12 +188,12 @@ body {
   padding-bottom: 5%;
 }
 
-.contact-font p{
+.contact-font, #team-text{
   font-family: "Marker Felt", fantasy;
   color:rgb(255, 255, 255);
   position: relative;
-  padding-top: 10%;
-  padding-left: 10%;
+  padding-top: 5%;
+  padding-left: 4%;
 }
 
 .contact-font h2 {
