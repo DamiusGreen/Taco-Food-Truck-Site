@@ -26,6 +26,30 @@ $(document).ready(function(){
 
 });
 
+//When clicking an option collaspe navbar functionailty
+$(".navbar-nav>li>a").on("click", function(){
+    $('.navbar-collapse').collapse('hide');
+    $('#navbar-hamburger').toggle();
+    $('#navbar-close').toggle(); 
+});
+
+//When clicking the custom-toggler toggle the icons
+$(function() {
+    $("#custom-toggler").on("click", function() {
+      $('#navbar-hamburger').toggle();
+      $('#navbar-close').toggle();  
+    });
+  });
+
+ 
+/*
+$(function() {
+    $("#custom-toggler").click(function() {
+      $('#navbar-hamburger').toggleClass('hidden');
+      $('#navbar-close').toggleClass('hidden');  
+    });
+  });
+*/
 
 //The fade in effects for the SHOP section
 const faders = document.querySelectorAll(".fade-in");

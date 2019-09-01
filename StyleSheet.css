@@ -3,11 +3,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/*-----Disables horizontal scrolling-----*/
 html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
+/*Background of logo*/
 body {
     background-color: rgba(255, 255, 255, 0.40) !important;
     background-image: url("Taco_Truck/white2.png");
@@ -47,13 +49,18 @@ body {
   color:rgb(173, 9, 9);
 }
 
-.custom-toggler:hover {
+#custom-toggler:hover {
   transform: scale(1.2);
 }
 
-.custom-toggler {
+#custom-toggler {
   border: none;
   outline: none;
+}
+
+/*Navbar closed state*/
+#navbar-close {
+  color: rgb(243, 159, 4);
 }
 
 /*----------Taco truck logo positining----------*/
@@ -201,7 +208,7 @@ body {
 
 /*---------------Contact section---------------*/
 .map-container {
-  background: black;
+  background: rgb(0, 0, 0);
   position: relative;
   opacity: .85;
   padding-top: 2%;
