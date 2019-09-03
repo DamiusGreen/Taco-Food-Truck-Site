@@ -1,20 +1,20 @@
-//Click to scroll functionailty
+//Click to scroll functionality
 $(document).ready(function(){
     $("#section1").click(function() {
         $("html, body").animate({
-            scrollTop: $("#Tacos").offset().top
+            scrollTop: $(".scroll1").offset().top
         }, 100);
     });
 
     $("#section2").click(function() {
         $("html, body").animate({
-            scrollTop: $("#Shop").offset().top
+            scrollTop: $(".scroll2").offset().top
         }, 100);
     });
 
     $("#section3").click(function() {
         $("html, body").animate({
-            scrollTop: $("#About").offset().top
+            scrollTop: $(".scroll3").offset().top
         }, 100);
     });
 
@@ -29,10 +29,13 @@ $(document).ready(function(){
 //When clicking an option collaspe navbar functionailty
 $(".navbar-nav>li>a").on("click", function(){
     $('.navbar-collapse').collapse('hide');
-    $('#navbar-hamburger').toggle();
-    $('#navbar-close').toggle(); 
+    /*
+    $('#navbar-close').toggle("hide");
+    $('#navbar-hamburger').toggle(); 
+    */
 });
 
+/* will experiement with this toggle feature more later
 //When clicking the custom-toggler toggle the icons
 $(function() {
     $("#custom-toggler").on("click", function() {
@@ -40,7 +43,7 @@ $(function() {
       $('#navbar-close').toggle();  
     });
   });
-
+*/
  
 /*
 $(function() {
